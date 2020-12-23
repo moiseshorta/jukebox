@@ -206,7 +206,7 @@ small_vqvae = Hyperparams(
 HPARAMS_REGISTRY["small_vqvae"] = small_vqvae
 
 small_prior = Hyperparams(
-    restore_prior='',
+    restore_prior='/content/3ball.pth.tar',
     level=2,
     labels=False,
     n_ctx=8192,
