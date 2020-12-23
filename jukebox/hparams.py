@@ -206,6 +206,9 @@ small_vqvae = Hyperparams(
 HPARAMS_REGISTRY["small_vqvae"] = small_vqvae
 
 small_prior = Hyperparams(
+    restore_prior='',
+    level=2,
+    labels=False,
     n_ctx=8192,
     prior_width=1024,
     prior_depth=48,
